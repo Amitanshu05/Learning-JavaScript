@@ -23,5 +23,43 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 let someNumber = 33; 
 let stringNumber = String(someNumber); 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+//******************* Operations ********************
+
+let value = 3;
+let negValue = (-value); 
+// console.log(negValue); 
+
+// console.log(2+2);  addition
+// console.log(2-2);  subtraction
+// console.log(2*2);  multiplication
+// console.log(2**2); exponentiation => 2^2 = 4
+// console.log(2/2);  division
+// console.log(2%3);  modulus => remainder
+
+let str1 = "hitesh";
+let str2 = " amitanshu";
+
+let str3 = str1 + str2; //concatenation => joining two strings
+
+// 
+
+// console.log(str3); //hitesh amitanshu
+
+// console.log("1" + 2); //12 => string
+
+// console.log("1"+ 2 + 3); //123 => string
+
+// console.log(1 + 2 + "3"); //33 => string 
+
+// console.log(+true);
+// console.log(+"");
+
+let num1,num2,num3
+num1 = num2 = num3 = 2+2
+
+let gameCounter =100;
+++gameCounter;
+console.log(gameCounter); 

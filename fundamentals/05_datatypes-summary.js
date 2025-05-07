@@ -42,9 +42,43 @@ let myObj ={
 
 const myFunction = function(){
     console.log("hello world")
-} // function
+} // function declaration
 
-console.log(typeof heros); // object 
+// to call the function : myFunction();
+
+
+// console.log(typeof heros); // object 
 // array are special type of object
 
-//
+//*********************MEMORY ALLOCATION*********************
+
+// primitive types are stored in stack memory , copies of the values are stored in stack memory
+
+let myYoutubename="amitanshu";
+
+let anothername=myYoutubename;
+anothername="sachin"; 
+
+// console.log(myYoutubename);
+// console.log(anothername);
+
+// in the above example, myYoutubename is stored in stack memory and anothername is also stored in stack memory but it is a copy of myYoutubename.
+
+
+let userOne={
+    email: "user@gmail.com",
+    upi: "user@upi",
+}
+let userTwo=userOne; 
+
+userTwo.email="user2@gmail.com" //access to userOne.email;
+
+// . ke through access karte hein apane object ka property ko.
+
+// userTwo is a reference to userOne, so when we change userTwo, it also changes userOne.
+
+// console.log(userOne.email); 
+// console.log(userTwo.email);
+
+
+// non primitive types are stored in heap memory , reference milta hai bas.

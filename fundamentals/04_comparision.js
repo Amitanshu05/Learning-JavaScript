@@ -22,3 +22,6 @@
 
 console.log("2"==2); //true because of conversion.
 console.log("2"===2); //false because of no conversion and strict checking.
+
+
+//

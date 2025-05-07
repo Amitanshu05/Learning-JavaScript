@@ -46,3 +46,5 @@ const myFunction = function(){
 
 console.log(typeof heros); // object 
 // array are special type of object
+
+//

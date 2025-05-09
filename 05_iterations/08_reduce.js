@@ -1,3 +1,4 @@
+//reduce() is a method used to reduce an array to a single value (like a total sum, product, or string).
 const myNums = [1,2,3]
 
 //  const myTotal = myNums.reduce(function (acc ,currval){
@@ -33,3 +34,6 @@ const myNums = [1,2,3]
 
 const price = shoppingCart.reduce((acc ,item) => acc + item.price,0)
 console.log(price);
+
+//acc -> running total
+//item -> object inside array 
